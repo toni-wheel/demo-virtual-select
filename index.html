@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/base.css" />
+    <link rel="stylesheet" href="./styles/virtual-select.min.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+
+    <title>Virtual Select</title>
+  </head>
+  <body>
+    <h1>Бронирование автомобиля</h1>
+
+    <form id="booking-form">
+      <div class="form-group">
+        <label for="car-make">Марка автомобиля:</label>
+        <div id="car-make"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="car-model">Модель автомобиля:</label>
+        <div id="car-model"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="additional-options">Дополнительные опции:</label>
+        <div id="additional-options"></div>
+      </div>
+
+      <button type="submit">Забронировать</button>
+    </form>
+
+    <script src="./scripts/virtual-select.min.js"></script>
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>
